@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
 
-const Index = () => {
+const Projects = () => {
     return (
         <Fragment>
             <ul>
@@ -9,9 +9,9 @@ const Index = () => {
                 <li><Link href="/about">About</Link></li>
                 <li><Link href="/projects">Projects</Link></li>
             </ul>
-            <div>Welcome to Index page</div>
+            <div>Welcome to Projects page</div>
         </Fragment>
     );
 }
 
-export default Index;
+export default Projects;
