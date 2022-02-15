@@ -1,15 +1,44 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import Link from "next/link";
 
+import classes from './MainHeader.module.css';
+
+const navLinks = [
+    { name: "Home", Link: "/" },
+    { name: "About", Link: "/about" },
+    { name: "Projects", Link: "/projects" },
+    { name: "Contact", Link: "mailto:chatim.yash@yahoo.co.uk" }
+];
+
 const MainHeader = () => {
-    return (
-        <Fragment>
-            <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/projects">Projects</Link></li>
+    const [navLinksVisible, setNavLinksVisible] = useState(false);
+
+    const displayHamburber = () => {
+        return (
+            <ul className={classes["nav-links"]}>
+                <li className={classes["burger"]}>----</li>
+                <li className={classes["burger"]}>----</li>
+                <li className={classes["burger"]}>----</li>
             </ul>
-        </Fragment>
+        );
+    };
+
+    const displayNavLinks = () => {
+        return (
+            <ul className={classes["nav-links"]}>
+                {navLinks.map((item) => <li key={item.name} className={classes["nav-link"]}><Link href={item.Link}>{item.name}</Link></li>)}
+            </ul>
+        );
+    };
+
+    return (
+        <header className={classes["main-header"]}>
+            <nav>
+                <div onClick={() => setNavLinksVisible(!navLinksVisible)}>
+                    {navLinksVisible ? displayNavLinks() : displayHamburber()}
+                </div>
+            </nav>
+        </header>
     );
 }
 
