@@ -1,7 +1,11 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 import classes from './MainHeader.module.css';
+
+import { AppBar, Toolbar, IconButton } from "@material-ui/core";
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const navLinks = [
     { name: "Home", Link: "/" },
@@ -13,32 +17,29 @@ const navLinks = [
 const MainHeader = () => {
     const [navLinksVisible, setNavLinksVisible] = useState(false);
 
-    const displayHamburber = () => {
-        return (
-            <ul className={classes["nav-links"]}>
-                <li className={classes["burger"]}>----</li>
-                <li className={classes["burger"]}>----</li>
-                <li className={classes["burger"]}>----</li>
-            </ul>
-        );
-    };
-
     const displayNavLinks = () => {
         return (
             <ul className={classes["nav-links"]}>
+                <CloseIcon className={classes["nav-link"]}onClick={() => setNavLinksVisible(!navLinksVisible)}>X</CloseIcon>
                 {navLinks.map((item) => <li key={item.name} className={classes["nav-link"]}><Link href={item.Link}>{item.name}</Link></li>)}
             </ul>
         );
     };
 
     return (
-        <header className={classes["main-header"]}>
-            <nav>
-                <div onClick={() => setNavLinksVisible(!navLinksVisible)}>
-                    {navLinksVisible ? displayNavLinks() : displayHamburber()}
-                </div>
-            </nav>
-        </header>
+        <AppBar className={classes["appBar"]}>
+            <Toolbar className={classes["toolbar"]}>
+                <IconButton onClick={() => setNavLinksVisible(!navLinksVisible)}
+                    size="medium"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ mr: 2 }}
+                >
+                    {navLinksVisible ? displayNavLinks() : <MenuIcon />}
+                </IconButton>
+            </Toolbar>
+        </AppBar>
     );
 }
 

@@ -1,19 +1,15 @@
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    width: 100vw;
-    padding: 0 10vw;
-    color: black;
-    z-index: 10;
-}
-
-.nav-link,
-.burger {
+.nav-link {
     list-style-type: none;
 }
 
-.burger {
-    height: 7.5px;
+.nav-link:hover {
+    color: lightgray;
+}
+
+.appBar {
+    background-color: black !important;
+}
+
+.toolbar {
+    flex-direction: row-reverse;
 }

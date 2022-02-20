@@ -10,7 +10,6 @@ const Index = () => {
     return (
         <Fragment>
             <MainHeader />
-            <div>Welcome to Index page</div>
             <Grid container spacing={1}>
                 <Grid item xs={6}>
                     <Paper className={classes['paper']}></Paper>
