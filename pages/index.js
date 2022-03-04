@@ -2,14 +2,11 @@ import { Fragment } from "react";
 import Grid from '@material-ui/core/Grid';
 import { Paper } from "@material-ui/core";
 
-import MainHeader from "../components/layout/MainHeader";
-
 import classes from '../styles/landing/landing.module.css';
 
 const Index = () => {
     return (
         <Fragment>
-            <MainHeader />
             <Grid container spacing={1}>
                 <Grid item xs={6}>
                     <Paper className={classes['paper']}></Paper>
