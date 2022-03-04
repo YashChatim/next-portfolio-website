@@ -8,6 +8,7 @@
 
 .appBar {
     background-color: black !important;
+    position: static !important;
 }
 
 .toolbar {
