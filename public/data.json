@@ -5,6 +5,18 @@
                 {"id": 1, "instituteName": "The University of Sheffield", "courseName": "BEng - Aerospace Engineering", "startYear": 2015, "endYear": 2018},
                 {"id": 2, "instituteName": "Wembley High Technology College", "courseName": "Mathematics, Physics, Further mathematics and IT", "startYear": 2013, "endYear": 2015}
             ],
+            "workExperience": [
+                {"id": 1, "companyName": "Rockar, York, UK", "jobTitle": "Software Developer", "startYear": 2020, "endYear": 2022,
+                    "description": {
+                        "point1": "Designing front end using Vue.js framework",
+                        "point2": "Building responsive websites using HTML5, CSS3 along with jQuery and adding dynamic functionality to each module",
+                        "point3": "PHP for server-side development, Magento as E-Commerce platform",
+                        "point4": "Writing SQL queries to perform CRUD operations on the database",
+                        "point5": "Communicating with clients to carry out any necessary bug-fixes",
+                        "point6": "Working in an Agile environment and taking on priority tasks"
+                    }
+                }
+            ],
             "backendSkills": [
                 {"id": 1, "skillName": "Node.js", "source": "https://www.iihglobal.com/wp-content/uploads/2019/06/nodejs-development-256x256.jpg"},
                 {"id": 2, "skillName": "MongoDB", "source": "https://dtb5pzswcit1e.cloudfront.net/assets/images/product_logos/icon_mongodb_v2@2x.png"},
