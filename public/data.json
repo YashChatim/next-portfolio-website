@@ -1,0 +1,120 @@
+{
+    "pages": {
+        "about": {
+            "educations": [
+                {"id": 1, "instituteName": "The University of Sheffield", "courseName": "BEng - Aerospace Engineering", "startYear": 2015, "endYear": 2018},
+                {"id": 2, "instituteName": "Wembley High Technology College", "courseName": "Mathematics, Physics, Further mathematics and IT", "startYear": 2013, "endYear": 2015}
+            ],
+            "backendSkills": [
+                {"id": 1, "skillName": "Node.js", "source": "https://www.iihglobal.com/wp-content/uploads/2019/06/nodejs-development-256x256.jpg"},
+                {"id": 2, "skillName": "MongoDB", "source": "https://dtb5pzswcit1e.cloudfront.net/assets/images/product_logos/icon_mongodb_v2@2x.png"},
+                {"id": 3, "skillName": "MySQL", "source": "https://i1.wp.com/torbjornzetterlund.com/wp-content/uploads/2013/08/mysql-logo.png?resize=300%2C300&ssl=1"},
+                {"id": 4, "skillName": "Python", "source": "https://static-s.aa-cdn.net/img/ios/485729872/9b82da58cdf1dd6d75427cf37ac580f7"},
+                {"id": 5, "skillName": "C#/.NET", "source": "https://static-s.aa-cdn.net/img/ios/486208408/ab391a5c7c63ed46fd14e0af525a3cbb?v=1"},
+                {"id": 6, "skillName": "WinForms", "source": "https://www.windowsq.com/data/covers/thread/o/0/515.jpg?1607966974"},
+                {"id": 7, "skillName": "WPF", "source": "https://twitter.com/CsharpCorner/status/855771933639454720/photo/1"},
+                {"id": 8, "skillName": "Xamarin Forms", "source": "https://pbs.twimg.com/profile_images/471641515756769282/RDXWoY7W_400x400.png"},
+                {"id": 9, "skillName": "Matlab", "source": "https://i.imgur.com/1J0fRfY.jpg"},
+                {"id": 10, "skillName": "PHP", "source": "https://laravelnews.imgix.net/images/phplogo-1617378886.jpg?ixlib=php-3.3.1"},
+                {"id": 11, "skillName": "Magento", "source": "https://d1sjtleuqoc1be.cloudfront.net/wp-content/uploads/2016/07/magento-logo-860x421.jpg"}
+            ],
+            "frontendSkills": [
+                {"id": 1, "skillName": "HTML", "source": "https://icon-library.net/images/css3-icon/css3-icon-3.jpg"},
+                {"id": 2, "skillName": "CSS", "source": "https://pbs.twimg.com/profile_images/630569055729131520/v0I_dVu5_400x400.jpg"},
+                {"id": 3, "skillName": "Javascript", "source": "https://alansimpson.me/assets/images/homejs.jpg"},
+                {"id": 4, "skillName": "React", "source": "https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png"},
+                {"id": 5, "skillName": "Vue", "source": "https://miro.medium.com/max/1400/1*OrjCKmou1jT4It5so5gvOA.jpeg"},
+                {"id": 6, "skillName": "SCSS", "source": "https://extensions.typo3.org/typo3temp/assets/tx_terfe2/images/adx_scss_1.0.2.png"},
+                {"id": 7, "skillName": "jQuery", "source": "http://www.myiconfinder.com/uploads/iconsets/256-256-addfd91beb329ef73f608f8b40cb144c.png"},
+                {"id": 8, "skillName": "Bootstrap", "source": "https://equestsolutions.net/wp-content/uploads/2014/08/bootstrap-logo.jpg"},
+                {"id": 9, "skillName": "Semantic UI", "source": "https://www.321webmarketing.com/wp-content/themes/321-web-marketing/assets/images/semantic-logo-256.png"},
+                {"id": 10, "skillName": "React MDL", "source": "https://i.pinimg.com/originals/e0/33/78/e033782707e204310b524ce384df2b8f.png"}
+            ],
+            "otherSkills": [
+                {"id": 1, "skillName": "Bitbucket", "source": "https://logowik.com/content/uploads/images/bitbucket9553.jpg"},
+                {"id": 2, "skillName": "Heroku", "source": "https://s3.amazonaws.com/hackdesign/tools/app_images/000/000/037/icon_small/heroku-logo-6e6c2ed8be2ad02ac96455d53e4e7e43.png?1385326105"},
+                {"id": 3, "skillName": "Cloud9", "source": "https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1439425175/easvowgtoy62fgnpbz6p.png"},
+                {"id": 4, "skillName": "Visual Studio", "source": "https://cdn.iconscout.com/icon/free/png-256/visual-studio-569577.png"},
+                {"id": 5, "skillName": "VS Code", "source": "https://code.visualstudio.com/assets/favicon.ico"},
+                {"id": 6, "skillName": "OOP", "source": "https://miro.medium.com/max/1200/1*m8SG-c1f65wgsvu3RxdrTw.png"},
+                {"id": 7, "skillName": "JSON", "source": "https://pedrorijo.com/assets/img/json-logo.png"},
+                {"id": 8, "skillName": "MVC", "source": "https://miro.medium.com/max/1400/1*GWjlB9_708s3lbx8ufOYlw.jpeg"},
+                {"id": 9, "skillName": "MVVM", "source": "https://miro.medium.com/max/1400/1*NvvHhA24kizVjj7W50AnuA.png"},
+                {"id": 10, "skillName": "XML", "source": "https://1.bp.blogspot.com/-9_LYtPyzy9g/WPSEc-vTWEI/AAAAAAAAU-s/Nqt52hONhpYjoOm7OiRivUgeWYjeU6QOACLcB/s1600/XML.jpg"},
+                {"id": 11, "skillName": "XAML", "source": "https://user-images.githubusercontent.com/16964652/65000162-75d7fe00-d89f-11e9-873c-b5f5e56c4ad4.png"},
+                {"id": 12, "skillName": "Agile", "source": "https://itcgroup.io/Image%20for%20Blog/What%20is%20Agile%20methodology-/What%20is%20Agile%20methodology-.png"},
+                {"id": 13, "skillName": "Rest API", "source": "https://zappysys.com/blog/wp-content/uploads/2018/06/REST-API-icon.jpg"}
+            ]
+        },
+        "landing": {
+            "socialLinks": [
+                {"id": 1, "href": "https://www.linkedin.com/in/yash-chatim-a2624b174/", "class": "fa fa-linkedin-square"},
+                {"id": 2, "href": "https://github.com/YashChatim/", "class": "fa fa-github-square"},
+                {"id": 3, "href": "https://www.facebook.com/yash.chatim", "class": "fa fa-facebook-square"},
+                {"id": 4,"href": "https://www.instagram.com/yashie_kun/", "class": "fa fa-instagram"}
+            ]
+        },
+        "projects": {
+            "frontendProjects": [
+                {
+                  "id": 1,
+                  "gridClassName": "colorgame-panel",
+                  "source": "https://i.pinimg.com/originals/49/82/d9/4982d9cdf12076d44b968712ef188db1.jpg",
+                  "title": "COLOUR GAME",
+                  "description": "A web-based game focusing on HTML5, CSS3, Javascript, DOM manipulation and event handling.",
+                  "gitURL": "https://github.com/YashChatim/colorGame",
+                  "demoURL": "https://yashchatim.github.io/colorGame/"
+                },
+                {
+                  "id": 2,
+                  "gridClassName": "todolist-panel",
+                  "source": "https://i.pinimg.com/originals/ec/af/59/ecaf5985044f1a38cc17b82efec8c348.jpg",
+                  "title": "TO-DO LIST APP",
+                  "description": "A jQuery based app heavily focus on CSS, animation and effects, bootstrap, and is also responsive.",
+                  "gitURL": "https://github.com/YashChatim/toDoList",
+                  "demoURL": "https://yashchatim.github.io/toDoList/"
+                }
+            ],
+            "backendProjects": [
+                {
+                  "id": 1,
+                  "gridClassName": "movieapp-panel",
+                  "source": "https://i.pinimg.com/originals/74/34/c8/7434c86da18e03235b1f7a7cb0652fa2.jpg",
+                  "title": "MOVIE APP",
+                  "description": "A node.js and express based app that uses an API which contains movie data.",
+                  "gitURL": "https://github.com/YashChatim/movie_app",
+                  "demoURL": "https://ymdb-movie-app.herokuapp.com/"
+                },
+                {
+                  "id": 2, 
+                  "gridClassName": "restblogapp-panel",
+                  "source": "https://i.pinimg.com/originals/7f/df/07/7fdf07740dfad7bfc430ae61301b9c18.jpg",
+                  "title": "REST BLOG APP",
+                  "description": "A node.js and express based app focusing on RESTful routing, and semantic UI.",
+                  "gitURL": "https://github.com/YashChatim/RESTBlogApp",
+                  "demoURL": "https://my-rest-blog-app.herokuapp.com/blogs"
+                }
+            ],
+            "csharpProjects": [
+                {
+                  "id": 1,
+                  "className": "laserdefender-panel",
+                  "src": "https://i.pinimg.com/originals/3c/a8/8f/3ca88ff7f92eab510d2d9c13ecd6f799.jpg",
+                  "alt": "Laser defender",
+                  "text1": "LASER",
+                  "text2": "DEFENDER",
+                  "href": "https://github.com/YashChatim/Laser_Defender"
+                },
+                {
+                  "id": 2, 
+                  "className": "blockbreaker-panel",
+                  "src": "https://i.pinimg.com/originals/0e/f6/2e/0ef62ec445336f3a31cf990253ab860f.jpg",
+                  "alt": "Bowling strike",
+                  "text1": "BLOCK",
+                  "text2": "BREAKER",
+                  "href": "https://github.com/YashChatim/Block_Breaker"
+                }
+            ]
+        }
+    }
+}

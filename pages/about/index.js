@@ -3,7 +3,9 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
 import AboutMe from "../../components/about/AboutMe";
-import Eduction from '../../components/about/Eduction';
+import Education from '../../components/about/Education';
+
+import data from "../../public/data.json";
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -23,7 +25,8 @@ const About = () => {
             </Grid>
             <Grid item xs={9}>
                 <Item>
-                    <Eduction />
+                    <h2>Education</h2>
+                    {data.pages.about.educations.map((item) => <Education key={item.id} instituteName={item.instituteName} courseName={item.courseName} startYear={item.startYear} endYear={item.endYear} />)}
                 </Item>
             </Grid>
         </Grid>
